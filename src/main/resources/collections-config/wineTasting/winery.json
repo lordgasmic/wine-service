@@ -1,0 +1,28 @@
+{
+  "name": "winery",
+  "tables": [
+    {
+      "name": "winery_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "name",
+          "column": "name",
+          "data-type": "string"
+        },
+        {
+          "name": "location",
+          "column": "location",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}

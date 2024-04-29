@@ -1,0 +1,33 @@
+{
+  "name": "wine",
+  "tables": [
+    {
+      "name": "wine_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "wineryId",
+          "column": "winery_id",
+          "data-type": "int"
+        },
+        {
+          "name": "name",
+          "column": "name",
+          "data-type": "string"
+        },
+        {
+          "name": "style",
+          "column": "style",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}

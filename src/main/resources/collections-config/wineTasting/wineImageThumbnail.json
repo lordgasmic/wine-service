@@ -1,0 +1,38 @@
+{
+  "name": "wineImageThumbnail",
+  "tables": [
+    {
+      "name": "wine_image_thumbnail_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "wineId",
+          "column": "wine_id",
+          "data-type": "int"
+        },
+        {
+          "name": "label",
+          "column": "label",
+          "data-type": "string"
+        },
+        {
+          "name": "thumbnail",
+          "column": "thumbnail",
+          "data-type": "binary"
+        },
+        {
+          "name": "mimeType",
+          "column": "mime_type",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}

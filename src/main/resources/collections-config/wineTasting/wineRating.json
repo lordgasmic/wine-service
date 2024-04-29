@@ -1,0 +1,38 @@
+{
+  "name": "wineRating",
+  "tables": [
+    {
+      "name": "wine_rating_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "wineId",
+          "column": "wine_id",
+          "data-type": "int"
+        },
+        {
+          "name": "user",
+          "column": "user",
+          "data-type": "string"
+        },
+        {
+          "name": "date",
+          "column": "date",
+          "data-type": "string"
+        },
+        {
+          "name": "rating",
+          "column": "rating",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}

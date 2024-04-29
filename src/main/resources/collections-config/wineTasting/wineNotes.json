@@ -1,0 +1,43 @@
+{
+  "name": "wineNotes",
+  "tables": [
+    {
+      "name": "wine_notes_vw",
+      "id-column": "id",
+      "id-column-name": "id",
+      "type": "primary",
+      "properties": [
+        {
+          "name": "id",
+          "column": "id",
+          "data-type": "int"
+        },
+        {
+          "name": "wineId",
+          "column": "wine_id",
+          "data-type": "int"
+        },
+        {
+          "name": "note",
+          "column": "note",
+          "data-type": "string"
+        },
+        {
+          "name": "ordinal",
+          "column": "ordinal",
+          "data-type": "int"
+        },
+        {
+          "name": "user",
+          "column": "user",
+          "data-type": "string"
+        },
+        {
+          "name": "date",
+          "column": "date",
+          "data-type": "string"
+        }
+      ]
+    }
+  ]
+}

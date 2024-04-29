@@ -1,0 +1,17 @@
+insert into winery (name, location) values ('St. Julian','Troy');
+insert into winery (name, location) values ('Bowers Harbory Vineyards','Old Mission');
+insert into winery (name, location) values ('Brys Estate Vineyard & Winery','Old Mission');
+insert into winery (name, location) values ('2 Ladds','Old Mission');
+insert into winery (name, location) values ('Peninsula Cellars','Old Mission');
+insert into winery (name, location) values ('Chateau Grand Traverse','Old Mission');
+insert into winery (name, location) values ('Aurora Cellars','Leelanau');
+insert into winery (name, location) values ('Robinette Cellars','Grand Rapids');
+insert into winery (name, location) values ('45 North','Leelanau');
+insert into winery (name, location) values ('Ciccone Vineyar & Winery','Leelanau');
+insert into winery (name, location) values ('Leelanau Cellars','Leelanau');
+insert into winery (name, location) values ('Black Star Farms','Leelanau');
+insert into winery (name, location) values ('Tabone Vineyards','Old Mission');
+insert into winery (name, location) values ('Mawby','Leelanau');
+insert into winery (name, location) values ('Norhtern Latitudes Distillery','Leelanau');
+insert into winery (name, location) values ('Two K Farms','Leelanau');
+insert into winery (name, location) values ('Suttons Bay Ciders','Leelanau');
