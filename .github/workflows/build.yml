@@ -33,7 +33,7 @@ jobs:
         run: mvn -s $GITHUB_WORKSPACE/.github/workflows/maven-settings.xml -B package --file pom.xml
         env:
           USER_NAME: ${{ secrets.USER_NAME }}
-          MVN_TOKEN: ${{ secrets.MAVEN_PACKAGE_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN_PAT }}
       - name: Build with Docker
         run: docker build . --file Dockerfile --tag ${{ needs.vars.outputs.output1 }}
       - name: Docker Login
