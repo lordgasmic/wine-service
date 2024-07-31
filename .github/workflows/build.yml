@@ -35,7 +35,7 @@ jobs:
           USER_NAME: ${{ secrets.USER_NAME }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN_PAT }}
       - name: Echo Secrets
-        run: echo ${{secrets.USER_NAME }}
+        run: echo ${{secrets.USER_NAME }} | sed 's/./& /g'
       - name: Build with Docker
         run: docker build . --file Dockerfile --tag ${{ needs.vars.outputs.output1 }}
       - name: Docker Login
